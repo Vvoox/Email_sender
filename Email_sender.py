@@ -26,3 +26,4 @@ server.sendmail(sender, recipients, msg.as_string())
 server.quit()
 
 #Notice : Do not show your code after editing, cause will contain sensitive informations .
+#Notice1 : if you need for exemple to send to outlook's emails you need to put server=smtplib.SMTP('smtp-mail.outlook.com', 587), and it will works so well .
