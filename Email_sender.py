@@ -1,10 +1,10 @@
 #Hey everybody , this code it just for facilitate task of sending msg to many emails here its just for gmail . but you can change the host and port for other mails platformes .
 #If you've any problems or need some support please contact me , on Github or any other platforme . Good luck
-
+#Still not finish this version.
 
 import smtplib
-from email.MIMEMultipart import MIMEMultipart
-from email.MIMEText import MIMEText
+#from email.MIMEMultipart import MIMEMultipart
+#from email.MIMEText import MIMEText
 
 f = open("Your emails list ","r")
 myList = []
