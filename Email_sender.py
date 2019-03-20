@@ -11,7 +11,7 @@ for line in f:
 
 print(myList)
 
-sender = "You email"
+sender = "Your email"
 receivers = myList
 server = smtplib.SMTP('smtp.gmail.com',587)
 server.starttls()
