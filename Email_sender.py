@@ -22,6 +22,7 @@ msg['To'] = ", ".join(receivers)
 server.login('Your email ','Your password')
 server.sendmail(sender, receivers, msg.as_string())
 server.quit()
+print("Your message was sent successfully")
 
 #Notice : Do not show your code after editing, cause will contain sensitive informations .
 #Notice_1 : if you need for exemple to send to outlook's emails you need to put server=smtplib.SMTP('smtp-mail.outlook.com', 587), and it will works so well .
